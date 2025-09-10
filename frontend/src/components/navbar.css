@@ -1,0 +1,46 @@
+/* Header Navbar */
+.navbar {
+  @apply fixed top-0 left-0 w-full h-[80px] shadow-md z-[1000];
+}
+
+.navbar-container {
+  @apply max-w-[14200px] mx-auto flex items-center justify-between px-4 h-full;
+}
+
+.mobile-nav {
+  @apply flex items-center justify-between w-full md:hidden;
+}
+
+.desktop-nav {
+  @apply hidden md:flex items-center justify-between w-full;
+}
+
+.tech-p {
+  @apply font-bold text-white text-2xl md:text-2xl;
+}
+
+/* Desktop Navigation Links */
+.nav-list {
+  @apply flex ml-auto gap-8 font-semibold text-lg;
+}
+
+.nav-link {
+  @apply transition duration-200 text-white;
+}
+
+.nav-link:hover {
+  @apply text-gray-400;
+}
+
+/* Mobile Navigation */
+.mobile-nav-list {
+  @apply flex flex-col bg-gray-500 w-full absolute top-[80px] left-0 md:hidden font-semibold text-lg p-4;
+}
+
+.mobile-nav-link {
+  @apply text-white transition duration-200;
+}
+
+.mobile-nav-link:hover {
+  @apply text-gray-400;
+}
