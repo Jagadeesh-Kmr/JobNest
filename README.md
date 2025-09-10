@@ -1,6 +1,6 @@
 # JobNest
 
-A modern job portal web application built with **React.js, Tailwind CSS, Node.js, and MongoDB**.  
+A modern JobNest web application built with **React.js, Tailwind CSS, Node.js, and MongoDB**.  
 It allows job seekers to apply for jobs and employers to post/manage job listings.
 
 ---
