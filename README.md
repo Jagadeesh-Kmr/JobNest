@@ -1,22 +1,26 @@
-# 🏢 JobNest
+# JobNest
 
 A modern job portal web application built with **React.js, Tailwind CSS, Node.js, and MongoDB**.  
 It allows job seekers to apply for jobs and employers to post/manage job listings.
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 👩‍💻 For Job Seekers
-- Browse job listings with details (title, description, salary, requirements, location, etc.)
-- Apply for jobs directly
-- Manage your applications in your profile
+- Register and create a profile with personal details, email, and password  
+- Login securely after registration to access your dashboard  
+- Browse job listings with details (title, description, salary, requirements, location, etc.)  
+- Apply for jobs directly  
+- Manage your applications in the **My Applications** page  
 
 ### 🏢 For Employers
-- Post new jobs with details
-- Manage job listings
+- Register and create a company profile with personal details, email, password, and company name  
+- Login securely after registration to access the employer dashboard  
+- Post new jobs with details (title, description, salary, requirements, location, etc.)  
+- Manage job listings (edit or delete)  
 - View applications from job seekers
-
+  
 ---
 
 ## 🛠️ Tech Stack
